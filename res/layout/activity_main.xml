@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/connectBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="41dp"
+        android:text="@string/connect" />
+
+    <Button
+        android:id="@+id/switchBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="48dp"
+        android:text="@string/switchSide" />
+
+    <Button
+        android:id="@+id/nextPhaseBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="42dp"
+        android:text="@string/nextPhase" />
+
+    <Button
+        android:id="@+id/pauseBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="56dp"
+        android:layout_toRightOf="@+id/switchBtn"
+        android:text="@string/pause" />
+
+    <EditText
+        android:id="@+id/host"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/connectBtn"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp"
+        android:ems="10"
+        android:hint="@string/enterIp"
+         />
+
+    <Button
+        android:id="@+id/disconnectBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/nextPhaseBtn"
+        android:layout_alignLeft="@+id/host"
+        android:text="@string/disconnect" />
+
+</RelativeLayout>

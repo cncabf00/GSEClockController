@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">GSEClock遥控器</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">GSEClock遥控器</string>
+    <string name="connect">连接</string>
+	<string name="switchSide">换边</string>
+	<string name="pause">暂停</string>
+	<string name="resume">继续</string>
+	<string name="nextPhase">下一阶段</string>
+	<string name="disconnect">断开连接</string>
+	<string name="connected">连接成功</string>
+	<string name="connectFailed">连接失败</string>
+	<string name="success">操作成功</string>
+	<string name="state0">开始</string>
+	<string name="state1">进入辩论阶段</string>
+	<string name="state2">进入总结阶段</string>
+	<string name="state3">结束</string>
+	<string name="nextphaseMessage">确认要改变阶段吗?</string>
+	<string name="ok">确认</string>
+	<string name="cancel">取消</string>
+	<string name="enterIp">输入主机IP地址</string>
+</resources>
